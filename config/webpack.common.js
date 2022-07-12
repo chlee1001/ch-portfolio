@@ -3,6 +3,7 @@ const RefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { TsconfigPathsPlugin } = require('tsconfig-paths-webpack-plugin')
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin')
 
 const paths = require('./paths')
 
@@ -57,9 +58,23 @@ module.exports = {
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
+      hash: true,
       template: paths.public + '/index.html',
       favicon: paths.public + '/favicon.ico',
       filename: 'index.html',
+    }),
+    new WebpackManifestPlugin({
+      fileName: 'manifest.json',
+      publicPath: paths.public,
+      generate: (seed, files) => {
+        const manifestFiles = files.reduce((manifest, file) => {
+          manifest[file.name] = file.path
+          return manifest
+        }, seed)
+        return {
+          files: manifestFiles,
+        }
+      },
     }),
     isDevelopment && new RefreshWebpackPlugin(),
   ].filter(Boolean),
