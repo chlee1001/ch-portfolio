@@ -1,5 +1,6 @@
 import { keyframes } from 'styled-components'
 import * as styleVariable from './variables'
+import { maxDevices, minDevices } from './variables'
 
 export const mixins = {
   tagYellow: () => `
@@ -80,8 +81,8 @@ export const commonKeyframes = {
 }
 
 export const commonDevices = {
-  mobile: `@media (${styleVariable.devices.mobileS} and max-width: ${styleVariable.breakpoints.tablet} -1px)`,
-  tablet: `@media (${styleVariable.devices.tablet} and max-width: ${styleVariable.breakpoints.laptop} -1px)`,
-  laptop: `@media (${styleVariable.devices.laptop} and max-width: ${styleVariable.breakpoints.desktop} -1px)`,
-  desktop: `@media (${styleVariable.devices.desktop}`,
+  mobile: `${minDevices.mobileXS} and ${maxDevices.tablet}`,
+  tablet: `${minDevices.tablet} and ${maxDevices.laptop}`,
+  laptop: `(${minDevices.laptop}) and (${maxDevices.desktop})`,
+  desktop: `${minDevices.desktop}`,
 }

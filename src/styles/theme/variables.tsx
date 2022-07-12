@@ -10,6 +10,8 @@ export const size = {
   large12: '2.625rem',
   large11: '2.5rem',
   large10: '2.375rem',
+  large9: '2.25rem',
+  large8: '2.125rem',
   large7: '2rem',
   large6: '1.875rem',
   large5: '1.75rem',
@@ -23,6 +25,7 @@ export const size = {
   small1: '0.75rem',
   small2: '0.625rem',
   small3: '0.5rem',
+  fold: '0.95rem',
 }
 
 export const weight = {
@@ -78,21 +81,34 @@ export const backgroundColor = {
 export const boxShadow = '0 0.08em 0.35em rgb(0 0 0 / 18%)'
 
 export const breakpoints = {
-  mobileS: '320px',
-  mobileM: '375px',
-  mobileL: '425px',
-  tablet: '768px',
-  laptop: '1024px',
-  laptopL: '1440px',
-  desktop: '2560px',
+  mobileXS: '280',
+  mobileS: '320',
+  mobileM: '375',
+  mobileL: '425',
+  tablet: '768',
+  laptop: '1024',
+  laptopL: '1440',
+  desktop: '2560',
 }
 
-export const devices = {
-  mobileS: `(min-width: ${breakpoints.mobileS})`,
-  mobileM: `(min-width: ${breakpoints.mobileM})`,
-  mobileL: `(min-width: ${breakpoints.mobileL})`,
-  tablet: `(min-width: ${breakpoints.tablet})`,
-  laptop: `(min-width: ${breakpoints.laptop})`,
-  laptopL: `(min-width: ${breakpoints.laptopL})`,
-  desktop: `(min-width: ${breakpoints.desktop})`,
+export const minDevices = {
+  mobileXS: `(min-width: ${Number(breakpoints.mobileXS) + 1}px)`,
+  mobileS: `(min-width: ${breakpoints.mobileS}px)`,
+  mobileM: `(min-width: ${breakpoints.mobileM}px)`,
+  mobileL: `(min-width: ${breakpoints.mobileL}px)`,
+  tablet: `(min-width: ${breakpoints.tablet}px)`,
+  laptop: `(min-width: ${breakpoints.laptop}px)`,
+  laptopL: `(min-width: ${breakpoints.laptopL}px)`,
+  desktop: `(min-width: ${breakpoints.desktop}px)`,
+}
+
+export const maxDevices = {
+  mobileXS: `(max-width: ${Number(breakpoints.mobileXS)}px)`,
+  mobileS: `(max-width: ${Number(breakpoints.mobileS) - 1}px)`,
+  mobileM: `(max-width: ${Number(breakpoints.mobileM) - 1}px)`,
+  mobileL: `(max-width: ${Number(breakpoints.mobileL) - 1}px)`,
+  tablet: `(max-width: ${Number(breakpoints.tablet) - 1}px)`,
+  laptop: `(max-width: ${Number(breakpoints.laptop) - 1}px)`,
+  laptopL: `(max-width: ${Number(breakpoints.laptopL) - 1}px)`,
+  desktop: `(max-width: ${Number(breakpoints.desktop) - 1}px)`,
 }
