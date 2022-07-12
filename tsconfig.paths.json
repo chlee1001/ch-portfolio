@@ -31,8 +31,8 @@
       "#utils/*": [
         "./src/utils/*"
       ],
-      "#_types/*": [
-        "./src/_types/*"
+      "#types/*": [
+        "./src/types/*"
       ],
       "#locales/*": [
         "./src/locales/*"
