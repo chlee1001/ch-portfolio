@@ -1,8 +1,9 @@
 {
-  "isolatedModules": false,
   "compilerOptions": {
-    "baseUrl": ".",
     "paths": {
+      "#src": [
+        "./src/*"
+      ],
       "#apis/*": [
         "./src/apis/*"
       ],
@@ -12,14 +13,14 @@
       "#constants/*": [
         "./src/constants/*"
       ],
+      "#context/*": [
+        "./src/context/*"
+      ],
       "#components/*": [
         "./src/components/*"
       ],
       "#styles/*": [
         "./src/styles/*"
-      ],
-      "#types/*": [
-        "./src/types/*"
       ],
       "#hooks/*": [
         "./src/hooks/*"
@@ -31,8 +32,11 @@
         "./src/utils/*"
       ],
       "#_types/*": [
-        "./src/types/*"
+        "./src/_types/*"
       ],
+      "#locales/*": [
+        "./src/locales/*"
+      ]
     }
   }
 }
