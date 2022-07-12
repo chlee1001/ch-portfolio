@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "title": "Chaehyeon | 배우는 개발자",
+    "defaultLanguage": "Korean"
+  },
+  "aboutMe": {
+    "name": "이채현 (Rudy)",
+    "nickName": "Chaehyeon | 배우는 개발자",
+    "profileImg": "../assets/images/me.gif",
+    "email": "chlee1001@naver.com",
+    "githubUrl": "https://github.com/chlee1001",
+    "blogUrl": "https://chlee1001.github.io/"
+  },
+  "skillSets": [
+    {
+      "category": "Front-End",
+      "skills": [
+        {
+          "skill": "React Native",
+          "level": "4"
+        },
+        {
+          "skill": "React",
+          "level": "3.5"
+        },
+        {
+          "skill": "CSS - Styled Components",
+          "level": "4"
+        },
+        {
+          "skill": "HTML/CSS/JS",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "category": "Back-End",
+      "skills": [
+        {
+          "skill": "SpringBoot",
+          "level": "3"
+        },
+        {
+          "skill": "Node.js",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "category": "Database",
+      "skills": [
+        {
+          "skill": "MySQL",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "category": "Language Skills",
+      "skills": [
+        {
+          "skill": "Javascript",
+          "level": "4"
+        },
+        {
+          "skill": "Python",
+          "level": "3.5"
+        },
+        {
+          "skill": "JAVA",
+          "level": "3"
+        }
+      ]
+    },
+    {
+      "category": "ETC...",
+      "skills": [
+        {
+          "skill": "Git/Github",
+          "level": "4"
+        },
+        {
+          "skill": "AWS EC2",
+          "level": "3.5"
+        },
+        {
+          "skill": "AWS RDS",
+          "level": "3.5"
+        },
+        {
+          "skill": "AWS S3",
+          "level": "3"
+        },
+        {
+          "skill": "AWS Lambda",
+          "level": "3"
+        },
+        {
+          "skill": "Linux(커맨드 및 개발환경)",
+          "level": "3.5"
+        },
+        {
+          "skill": "Docker",
+          "level": "2"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "imgUrl": "./assets/images/ch_logo.png",
+      "githubUrl": "https://chae-hyeon.notion.site/6078ec69e8634c518c816dc0ac196148",
+      "projectUrl": "https://chae-hyeon.notion.site/6078ec69e8634c518c816dc0ac196148",
+      "title": "[개인] 포트폴리오 프로젝트",
+      "term": "22.01 ~ ",
+      "description": "포트폴리오 사이트 프로젝트입니다.",
+      "attribution": "일부 버그 및 기능 추가와 함께 TS로 리팩토링 진행중입니다.",
+      "tags": [
+        "Cloudflare",
+        "AWS EC2",
+        "Ubuntu",
+        "Nginx",
+        "React"
+      ]
+    },
+    {
+      "imgUrl": "",
+      "githubUrl": "https://github.com/FIN-Hackaton/loan-listing-service",
+      "projectUrl": "https://github.com/FIN-Hackaton/loan-listing-service",
+      "title": "[Team] 빅데이터 기반 청년 맞춤 대출추천부터 매물정보까지 올인원 웹서비스 (해커톤)",
+      "term": "21.08",
+      "description": "",
+      "attribution": "",
+      "tags": [
+        "AWS EC2",
+        "RDS",
+        "Ubuntu",
+        "Java",
+        "SpringBoot",
+        "MySQL",
+        "Python",
+        "React"
+      ]
+    },
+    {
+      "imgUrl": "../assets/images/project_stock.jpg",
+      "githubUrl": "https://github.com/FIN-Study/Stock-ChatBot",
+      "projectUrl": "https://github.com/FIN-Study/Stock-ChatBot",
+      "title": "[Team] Stock Bot (스터디그룹)",
+      "term": "21.08",
+      "description": "특정 키워드 관련 주식종목(테마주)와 시장가 정보 제공",
+      "attribution": "카카오 챗봇 관리자 센터 API와 Spring프로젝트, MySQL 연결 및 테스트",
+      "tags": [
+        "AWS EC2",
+        "Ubuntu",
+        "Java",
+        "SpringBoot",
+        "MySQL",
+        "Python"
+      ]
+    },
+    {
+      "imgUrl": "../assets/images/project_denoise.png",
+      "githubUrl": "https://github.com/chlee1001",
+      "projectUrl": "https://github.com/chlee1001",
+      "title": "[Team] Deep learning competitions with image denoising in Multimedia lecture (가천대학교)",
+      "term": "21.03 ~ 21.06",
+      "description": "이미지 디노이징 모델을 제작하여, 성능 경쟁 대회",
+      "attribution": "DnCNN 논문을 기반으로 이미지 노이즈 제거 딥러닝 모델 제작, 성능 테스트",
+      "tags": [
+        "Python",
+        "Pytorch"
+      ]
+    },
+    {
+      "imgUrl": "../assets/images/project_AIprofile.png",
+      "githubUrl": "https://github.com/rheeeuro/profile-finder",
+      "projectUrl": "https://profile-finder0.herokuapp.com/",
+      "title": "[Team] AI Profile Finder (가천대학교)",
+      "term": "20.04 ~ 21.06",
+      "description": "딥러닝을 이용한 이미지 분석 및 배우 구인ㆍ구직 서비스 개발",
+      "attribution": "팀리더, 이미지 전처리 및 모델 학습, 모델 테스트 서버 개발 및 웹 구현",
+      "tags": [
+        "Docker",
+        "Node.js",
+        "Express",
+        "OpenCV",
+        "Google Teachable Machine",
+        "AWS S3",
+        "MongoDB"
+      ]
+    },
+    {
+      "imgUrl": "./assets/images/project-aquarium.png",
+      "githubUrl": "https://github.com/chlee1001/Computer-Graphics_TermProject",
+      "projectUrl": "https://www.youtube.com/watch?v=Goi1VeH1tBU",
+      "title": "[Team] 아쿠아리움 - 그래픽스 (가천대학교)",
+      "term": "20.09 ~ 20.12",
+      "description": "Three.js를 이용하여 웹 3D 어항 제작",
+      "attribution": "서버개발 및 자바스크립트를 이용하여 3D 이미지 모델 적용 및 움직임 구현",
+      "tags": [
+        "Docker",
+        "Node.js",
+        "Express",
+        "HTML/CSS/JavaScript"
+      ]
+    },
+    {
+      "imgUrl": "./assets/images/project-hwajilguji.jpg",
+      "githubUrl": "https://github.com/MP-TermProject/HwajilGuji/wiki",
+      "projectUrl": "https://www.youtube.com/watch?v=HeCJ8irDXdg",
+      "title": "[Team] 화질구지 – 해상도 개선 앱 개발 (가천대학교)",
+      "term": "20.04 ~ 20.07",
+      "description": "딥러닝을 통해 미리 학습한 신경망을 Pytorch Android로 모바일 환경에서도 이미지 해상도를 개선해주는 안드로이드 애플리케이션 개발",
+      "attribution": "학습된 모델 프로젝트 적용, 이미지 불러오기 및 저장 기능 개발, Fragment 간 이미지 이동 구현",
+      "tags": [
+        "Android"
+      ]
+    },
+    {
+      "imgUrl": "/assets/images/project-mebot.gif",
+      "githubUrl": "https://github.com/chlee1001/MeBot/wiki",
+      "projectUrl": "https://www.youtube.com/watch?v=FLkv7BF1rV4",
+      "title": "[Team] 미봇 - 챗봇 프로그램 (가천대학교) ",
+      "term": "17.09 ~ 17.12",
+      "description": "카카오톡 자동응답 API를 이용하여 학교 생활에 필요한 정보를 제공해주는 챗봇 개발",
+      "attribution": "서버개발 및 API 연결 등의 기본 구성, 팀원들에게 API 사용법 및 파싱하는 법 교육 및 전반적인 개발진행",
+      "tags": [
+        "AWS EC2",
+        "Ubuntu",
+        "Node.js",
+        "Express",
+        "MySQL",
+        "Kakao API",
+        "GCP API"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "imgUrl": "./assets/images/exp_lfin2.png",
+      "title": "[정규직] (주)엘핀",
+      "term": "21.12 - 진행중",
+      "info": "지금 당장 내가 서 있는 '위치'정보가 '나'를 인증하는 인증솔루션을 제공하는 스타트업",
+      "description": "",
+      "descriptions": [
+        "- MVP 서비스의 CMS페이지 개발",
+        "- 신규 B2C 서비스 '노닥노닥' 개발 진행 및 런칭",
+        "...더보기"
+      ],
+      "experienceUrl": "https://chae-hyeon.notion.site/25ea85c43737496899568f90886f69be"
+    },
+    {
+      "imgUrl": "./assets/images/exp_lfin2.png",
+      "title": "[인턴] (주)엘핀",
+      "term": "21.09 - 21.11",
+      "description": "백엔드 개발 인턴으로 실무 중심의 테스트 후, 신규 B2C 서비스 MVP 개발에 참여",
+      "descriptions": [
+        "...더보기"
+      ],
+      "experienceUrl": "https://chae-hyeon.notion.site/9b16a4e1c09148e6a6934472d9e4e306"
+    },
+    {
+      "imgUrl": "./assets/images/exp_fintech.jpg",
+      "title": "[외부활동] 핀테크 Pre 인턴십 코스 (한국핀테크지원센터 & 코스콤)",
+      "term": "21.07 - 21.08",
+      "description": "핀테크 전문인력 양성 교육으로 핀테크 비즈니스역량, 오피스활용, 기획, 금융IT 실습 및 핀테크        Biz 웹 서비스 기획/구현의 해커톤 프로젝트 수행 ",
+      "experienceUrl": "https://fintech.or.kr/web/user/main.do"
+    },
+    {
+      "imgUrl": "./assets/images/exp_gachon.jpg",
+      "title": "[RA] 가천대학교 소프트웨어학과 학부생연구원",
+      "term": "21.04 - 21.10",
+      "info": "",
+      "description": "사물인터넷 기기에서의 체크포인트와 복구 성능 분석 연구 진행",
+      "descriptions": [
+        "- Ubuntu/Raspbian OS에서의 CRIU사용을 위해 커널 수정 작업 진행",
+        "- PC와 라즈베리파이에서의 체크포인트한 Docker 컨테이너를 이관 후 복구 성능 비교 분석 진행",
+        "- 후배를 위한 메뉴얼작성"
+      ],
+      "experienceUrl": ""
+    },
+    {
+      "imgUrl": "./assets/images/exp_emro.jpg",
+      "title": "[산학인턴] 엠로 AI 사업본부",
+      "term": "21.01 - 21.02",
+      "description": "파이썬의 Beautifulsoup, Selenium 라이브러리를 이용한 크롤링과 Docker와 MongoDB의 사용경험을 쌓았으며, NLP 기술이 현업에서 어떻게 쓰이는지 경험했습니다.",
+      "experienceUrl": "https://github.com/chlee1001/industry-academic-program"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "정보처리기사",
+      "term": "2022.06.17",
+      "description": "22201240442N - 한국산업인력공단"
+    },
+    {
+      "title": "토익스피킹 - 6급",
+      "term": "2021.03.28",
+      "description": "한국TOEIC위원회"
+    },
+    {
+      "title": "네트워크 관리사 - 2급",
+      "term": "2018.12.11",
+      "description": "NT2045145 - 한국정보통신자격협회"
+    }
+  ],
+  "educations": [
+    {
+      "title": "가천대학교 글로벌캠퍼스 소프트웨어학과 (Department of Software at Gachon University)",
+      "term": "2016.03 - 2022.02",
+      "description": "학사 졸업"
+    },
+    {
+      "title": "성남 성일고등학교 (Sungil High School)",
+      "term": "2013.03 - 2016.02",
+      "description": "인문계 졸업"
+    }
+  ]
+}
