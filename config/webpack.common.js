@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { TsconfigPathsPlugin } = require('tsconfig-paths-webpack-plugin')
 const { WebpackManifestPlugin } = require('webpack-manifest-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const paths = require('./paths')
 
@@ -49,7 +50,7 @@ module.exports = {
       },
       { test: /\.tsx?$/, loader: 'ts-loader' },
       {
-        test: /\.(ico|png|jpe?g|gif|jpeg|svg|woff|woff2|eot|ttf|otf)$/,
+        test: /\.(ico|png|jpe?g|gif|jpeg|svg|woff|woff2|eot|ttf|otf|md)$/,
         type: 'asset/resource',
       },
     ],
@@ -75,6 +76,14 @@ module.exports = {
           files: manifestFiles,
         }
       },
+    }),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: paths.public + '/assets',
+          to: paths.build + '/assets',
+        },
+      ],
     }),
     isDevelopment && new RefreshWebpackPlugin(),
   ].filter(Boolean),
