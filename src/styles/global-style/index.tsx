@@ -1,10 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
-import reset from 'styled-reset'
 import { color, weight } from '#styles/theme/variables'
-import './fonts.module.css'
+import Sun from '#assets/static/images/sun.png'
 
 const GlobalStyle = createGlobalStyle`
-  ${reset}
   * {
     font-family: Montserrat, 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -18,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
   html,
   body,
   #root {
+    min-width: 280px;
     height: 100%;
     min-height: 100%;
     cursor: default;
@@ -91,7 +90,7 @@ const GlobalStyle = createGlobalStyle`
 
       .theme-container {
         button {
-          background-image: url('#assets/static/images/sun.png');
+          background-image: url(${Sun});
         }
       }
     }
@@ -152,7 +151,6 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
     font: inherit;
     vertical-align: middle;
   }
