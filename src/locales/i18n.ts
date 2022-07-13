@@ -7,9 +7,11 @@ import myData from '#assets/db.json'
 
 const resources = {
   English: {
+    translation: skillsEn,
     skills: skillsEn,
   },
   Korean: {
+    translation: skillsKo,
     skills: skillsKo,
   },
 } as const

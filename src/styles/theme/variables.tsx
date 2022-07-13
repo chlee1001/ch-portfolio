@@ -25,6 +25,8 @@ export const size = {
   small1: '0.75rem',
   small2: '0.625rem',
   small3: '0.5rem',
+  tiny0: '0.375rem',
+  tiny1: '0.25rem',
   fold: '0.95rem',
 }
 
@@ -92,7 +94,8 @@ export const breakpoints = {
 }
 
 export const minDevices = {
-  mobileXS: `(min-width: ${Number(breakpoints.mobileXS) + 1}px)`,
+  mobileXS: `(min-width: ${breakpoints.mobileXS}px)`,
+  mobileXS1: `(min-width: ${Number(breakpoints.mobileXS) + 1}px)`,
   mobileS: `(min-width: ${breakpoints.mobileS}px)`,
   mobileM: `(min-width: ${breakpoints.mobileM}px)`,
   mobileL: `(min-width: ${breakpoints.mobileL}px)`,

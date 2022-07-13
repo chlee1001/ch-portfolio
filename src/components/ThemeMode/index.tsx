@@ -11,6 +11,9 @@ const Container = styled.div`
 
 const LanguageSelect = styled.select`
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
   cursor: pointer;
 `
 

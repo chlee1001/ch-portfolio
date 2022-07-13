@@ -14,101 +14,135 @@
   },
   "skillSets": [
     {
-      "category": "Front-End",
+      "id": 1,
+      "category": "Front End Skills",
       "skills": [
         {
+          "id": 1,
           "skill": "React Native",
-          "level": "4"
+          "level": "3.75"
         },
         {
+          "id": 2,
           "skill": "React",
           "level": "3.5"
         },
         {
+          "id": 3,
           "skill": "CSS - Styled Components",
+          "level": "3"
+        },
+        {
+          "id": 4,
+          "skill": "Javascript",
           "level": "4"
         },
         {
-          "skill": "HTML/CSS/JS",
-          "level": "3"
+          "id": 5,
+          "skill": "Typescript",
+          "level": "2"
         }
       ]
     },
     {
-      "category": "Back-End",
+      "id": 2,
+      "category": "Back End Skills",
       "skills": [
         {
+          "id": 1,
+          "skill": "JAVA",
+          "level": "3"
+        },
+        {
+          "id": 2,
           "skill": "SpringBoot",
           "level": "3"
         },
         {
-          "skill": "Node.js",
-          "level": "3"
+          "id": 3,
+          "skill": "Express",
+          "level": "2"
         }
+
       ]
     },
     {
-      "category": "Database",
+      "id": 3,
+      "category": "Database Skills",
       "skills": [
         {
+          "id": 1,
           "skill": "MySQL",
           "level": "3"
         }
       ]
     },
     {
-      "category": "Language Skills",
+      "id": 4,
+      "category": "Collaboration Skills",
       "skills": [
         {
-          "skill": "Javascript",
-          "level": "4"
+          "id": 1,
+          "skill": "Git/Github",
+          "level": null
         },
         {
-          "skill": "Python",
-          "level": "3.5"
+          "id": 2,
+          "skill": "Notion",
+          "level": null
         },
         {
-          "skill": "JAVA",
-          "level": "3"
+          "id": 3,
+          "skill": "Slack",
+          "level": null
         }
       ]
     },
     {
+      "id": 5,
       "category": "ETC...",
       "skills": [
         {
-          "skill": "Git/Github",
-          "level": "4"
+          "id": 1,
+          "skill": "Python",
+          "level": null
         },
         {
+          "id": 2,
           "skill": "AWS EC2",
-          "level": "3.5"
+          "level": null
         },
         {
+          "id": 3,
           "skill": "AWS RDS",
-          "level": "3.5"
+          "level": null
         },
         {
+          "id": 4,
           "skill": "AWS S3",
-          "level": "3"
+          "level": null
         },
         {
+          "id": 5,
           "skill": "AWS Lambda",
-          "level": "3"
+          "level": null
         },
         {
-          "skill": "Linux(커맨드 및 개발환경)",
-          "level": "3.5"
+          "id": 6,
+          "skill": "Linux",
+          "level": null
         },
         {
+          "id": 7,
           "skill": "Docker",
-          "level": "2"
+          "level": null
         }
       ]
     }
   ],
   "projects": [
     {
+      "id": 1,
       "imgUrl": "./assets/images/ch_logo.png",
       "githubUrl": "https://chae-hyeon.notion.site/6078ec69e8634c518c816dc0ac196148",
       "projectUrl": "https://chae-hyeon.notion.site/6078ec69e8634c518c816dc0ac196148",
@@ -121,10 +155,12 @@
         "AWS EC2",
         "Ubuntu",
         "Nginx",
-        "React"
+        "React",
+        "Typescript"
       ]
     },
     {
+      "id": 2,
       "imgUrl": "",
       "githubUrl": "https://github.com/FIN-Hackaton/loan-listing-service",
       "projectUrl": "https://github.com/FIN-Hackaton/loan-listing-service",
@@ -144,6 +180,7 @@
       ]
     },
     {
+      "id": 3,
       "imgUrl": "../assets/images/project_stock.jpg",
       "githubUrl": "https://github.com/FIN-Study/Stock-ChatBot",
       "projectUrl": "https://github.com/FIN-Study/Stock-ChatBot",
@@ -161,6 +198,7 @@
       ]
     },
     {
+      "id": 4,
       "imgUrl": "../assets/images/project_denoise.png",
       "githubUrl": "https://github.com/chlee1001",
       "projectUrl": "https://github.com/chlee1001",
@@ -174,6 +212,7 @@
       ]
     },
     {
+      "id": 5,
       "imgUrl": "../assets/images/project_AIprofile.png",
       "githubUrl": "https://github.com/rheeeuro/profile-finder",
       "projectUrl": "https://profile-finder0.herokuapp.com/",
@@ -192,6 +231,7 @@
       ]
     },
     {
+      "id": 6,
       "imgUrl": "./assets/images/project-aquarium.png",
       "githubUrl": "https://github.com/chlee1001/Computer-Graphics_TermProject",
       "projectUrl": "https://www.youtube.com/watch?v=Goi1VeH1tBU",
@@ -207,6 +247,7 @@
       ]
     },
     {
+      "id": 7,
       "imgUrl": "./assets/images/project-hwajilguji.jpg",
       "githubUrl": "https://github.com/MP-TermProject/HwajilGuji/wiki",
       "projectUrl": "https://www.youtube.com/watch?v=HeCJ8irDXdg",
@@ -219,6 +260,7 @@
       ]
     },
     {
+      "id": 8,
       "imgUrl": "/assets/images/project-mebot.gif",
       "githubUrl": "https://github.com/chlee1001/MeBot/wiki",
       "projectUrl": "https://www.youtube.com/watch?v=FLkv7BF1rV4",
@@ -239,6 +281,7 @@
   ],
   "experiences": [
     {
+      "id": 1,
       "imgUrl": "./assets/images/exp_lfin2.png",
       "title": "[정규직] (주)엘핀",
       "term": "21.12 - 진행중",
@@ -252,6 +295,7 @@
       "experienceUrl": "https://chae-hyeon.notion.site/25ea85c43737496899568f90886f69be"
     },
     {
+      "id": 2,
       "imgUrl": "./assets/images/exp_lfin2.png",
       "title": "[인턴] (주)엘핀",
       "term": "21.09 - 21.11",
@@ -262,13 +306,18 @@
       "experienceUrl": "https://chae-hyeon.notion.site/9b16a4e1c09148e6a6934472d9e4e306"
     },
     {
+      "id": 3,
       "imgUrl": "./assets/images/exp_fintech.jpg",
       "title": "[외부활동] 핀테크 Pre 인턴십 코스 (한국핀테크지원센터 & 코스콤)",
       "term": "21.07 - 21.08",
       "description": "핀테크 전문인력 양성 교육으로 핀테크 비즈니스역량, 오피스활용, 기획, 금융IT 실습 및 핀테크        Biz 웹 서비스 기획/구현의 해커톤 프로젝트 수행 ",
+      "descriptions": [
+        "- 해커톤 최우수상"
+      ],
       "experienceUrl": "https://fintech.or.kr/web/user/main.do"
     },
     {
+      "id": 4,
       "imgUrl": "./assets/images/exp_gachon.jpg",
       "title": "[RA] 가천대학교 소프트웨어학과 학부생연구원",
       "term": "21.04 - 21.10",
@@ -282,25 +331,30 @@
       "experienceUrl": ""
     },
     {
+      "id": 5,
       "imgUrl": "./assets/images/exp_emro.jpg",
       "title": "[산학인턴] 엠로 AI 사업본부",
       "term": "21.01 - 21.02",
       "description": "파이썬의 Beautifulsoup, Selenium 라이브러리를 이용한 크롤링과 Docker와 MongoDB의 사용경험을 쌓았으며, NLP 기술이 현업에서 어떻게 쓰이는지 경험했습니다.",
+      "descriptions": [],
       "experienceUrl": "https://github.com/chlee1001/industry-academic-program"
     }
   ],
   "certificates": [
     {
+      "id": 1,
       "title": "정보처리기사",
       "term": "2022.06.17",
       "description": "22201240442N - 한국산업인력공단"
     },
     {
+     "id": 2,
       "title": "토익스피킹 - 6급",
       "term": "2021.03.28",
       "description": "한국TOEIC위원회"
     },
     {
+      "id": 3,
       "title": "네트워크 관리사 - 2급",
       "term": "2018.12.11",
       "description": "NT2045145 - 한국정보통신자격협회"
@@ -308,11 +362,13 @@
   ],
   "educations": [
     {
+      "id": 1,
       "title": "가천대학교 글로벌캠퍼스 소프트웨어학과 (Department of Software at Gachon University)",
       "term": "2016.03 - 2022.02",
       "description": "학사 졸업"
     },
     {
+      "id": 2,
       "title": "성남 성일고등학교 (Sungil High School)",
       "term": "2013.03 - 2016.02",
       "description": "인문계 졸업"

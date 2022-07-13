@@ -6,6 +6,12 @@ import PageWrapper from '#components/commons/PageWrapper'
 import ThemeMode from '#components/ThemeMode'
 import Title from '#components/Title'
 import AboutMe from '#components/AboutMe'
+import SkillSets from '#components/SkillSets'
+import Footer from '#components/Footer'
+import Education from '#components/Education'
+import Certificates from '#components/Certificates'
+import Experience from '#components/Experience'
+import Projects from '#components/projects'
 
 const Home = () => {
   const { darkTheme } = useContext(ThemeChangeContext)
@@ -22,6 +28,12 @@ const Home = () => {
         <ThemeMode />
         <Title />
         <AboutMe />
+        <SkillSets />
+        <Experience />
+        <Projects />
+        <Certificates />
+        <Education />
+        <Footer />
       </PageWrapper>
     </CSSTransition>
   )
