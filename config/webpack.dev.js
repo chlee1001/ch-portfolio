@@ -43,5 +43,6 @@ module.exports = merge(common, {
     port: 3001,
     hot: true,
     historyApiFallback: true,
+    allowedHosts: "all",
   },
 })
