@@ -8,6 +8,7 @@ import Title from '#components/Title'
 import AboutMe from '#components/AboutMe'
 import SkillSets from '#components/SkillSets'
 import Footer from '#components/Footer'
+import Education from '#components/Education'
 
 const Home = () => {
   const { darkTheme } = useContext(ThemeChangeContext)
@@ -25,6 +26,7 @@ const Home = () => {
         <Title />
         <AboutMe />
         <SkillSets />
+        <Education />
         <Footer />
       </PageWrapper>
     </CSSTransition>

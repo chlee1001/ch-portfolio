@@ -341,11 +341,13 @@
   ],
   "educations": [
     {
+      "id": 1,
       "title": "가천대학교 글로벌캠퍼스 소프트웨어학과 (Department of Software at Gachon University)",
       "term": "2016.03 - 2022.02",
       "description": "학사 졸업"
     },
     {
+      "id": 2,
       "title": "성남 성일고등학교 (Sungil High School)",
       "term": "2013.03 - 2016.02",
       "description": "인문계 졸업"
