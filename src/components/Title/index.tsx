@@ -39,7 +39,7 @@ const H1Title = styled.h1`
       margin-bottom: 1rem;
     `}
   }
-  @media ${minDevices.mobileXS} and ${maxDevices.mobileS} {
+  @media ${minDevices.mobileXS1} and ${maxDevices.mobileS} {
     ${css`
       font-size: ${size.large0};
       margin-bottom: 1rem;

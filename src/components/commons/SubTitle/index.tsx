@@ -19,22 +19,22 @@ const H3SubTitle = styled.h3`
   }
   @media ${minDevices.mobileL} and ${maxDevices.tablet} {
     ${css`
-      font-size: ${size.large3};
+      font-size: ${size.large4};
     `}
   }
   @media ${minDevices.mobileM} and ${maxDevices.mobileL} {
     ${css`
-      font-size: ${size.large1};
+      font-size: ${size.large2};
     `}
   }
   @media ${minDevices.mobileS} and ${maxDevices.mobileM} {
     ${css`
-      font-size: ${size.default};
+      font-size: ${size.large1};
     `}
   }
   @media ${maxDevices.mobileS} {
     ${css`
-      font-size: ${size.small0};
+      font-size: ${size.large0};
     `}
   }
 `

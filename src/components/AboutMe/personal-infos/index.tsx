@@ -181,23 +181,25 @@ const Details = styled.div`
     transition: opacity 200ms;
   }
 
-  @media ${minDevices.mobileS} and ${maxDevices.mobileL} {
+  @media ${minDevices.mobileXS1} and ${maxDevices.mobileL} {
     ${css`
       .flex {
         display: inline-grid;
 
         a {
           margin: 0.225rem 0 0 1rem;
+          font-size: ${size.small0};
         }
       }
 
       #email {
         margin: 0.225rem 0 0 1rem;
+        font-size: ${size.small0};
       }
     `}
   }
 
-  @media ${maxDevices.mobileS} {
+  @media ${maxDevices.mobileXS} {
     ${css`
       .flex {
         display: inline-grid;
@@ -206,7 +208,7 @@ const Details = styled.div`
           margin: 0.5rem 0 0.5rem 1rem;
           word-break: break-all;
           line-height: 1;
-          font-size: ${size.small0};
+          font-size: ${size.small1};
         }
       }
 
@@ -214,7 +216,7 @@ const Details = styled.div`
         margin: 0.5rem 0 0.5rem 1rem;
         word-break: break-all;
         line-height: 1;
-        font-size: ${size.small0};
+        font-size: ${size.small1};
 
         span {
           display: inline-block;
