@@ -324,16 +324,19 @@
   ],
   "certificates": [
     {
+      "id": 1,
       "title": "정보처리기사",
       "term": "2022.06.17",
       "description": "22201240442N - 한국산업인력공단"
     },
     {
+     "id": 2,
       "title": "토익스피킹 - 6급",
       "term": "2021.03.28",
       "description": "한국TOEIC위원회"
     },
     {
+      "id": 3,
       "title": "네트워크 관리사 - 2급",
       "term": "2018.12.11",
       "description": "NT2045145 - 한국정보통신자격협회"
