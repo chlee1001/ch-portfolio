@@ -272,6 +272,7 @@
   ],
   "experiences": [
     {
+      "id": 1,
       "imgUrl": "./assets/images/exp_lfin2.png",
       "title": "[정규직] (주)엘핀",
       "term": "21.12 - 진행중",
@@ -285,6 +286,7 @@
       "experienceUrl": "https://chae-hyeon.notion.site/25ea85c43737496899568f90886f69be"
     },
     {
+      "id": 2,
       "imgUrl": "./assets/images/exp_lfin2.png",
       "title": "[인턴] (주)엘핀",
       "term": "21.09 - 21.11",
@@ -295,13 +297,18 @@
       "experienceUrl": "https://chae-hyeon.notion.site/9b16a4e1c09148e6a6934472d9e4e306"
     },
     {
+      "id": 3,
       "imgUrl": "./assets/images/exp_fintech.jpg",
       "title": "[외부활동] 핀테크 Pre 인턴십 코스 (한국핀테크지원센터 & 코스콤)",
       "term": "21.07 - 21.08",
       "description": "핀테크 전문인력 양성 교육으로 핀테크 비즈니스역량, 오피스활용, 기획, 금융IT 실습 및 핀테크        Biz 웹 서비스 기획/구현의 해커톤 프로젝트 수행 ",
+      "descriptions": [
+        "- 해커톤 최우수상"
+      ],
       "experienceUrl": "https://fintech.or.kr/web/user/main.do"
     },
     {
+      "id": 4,
       "imgUrl": "./assets/images/exp_gachon.jpg",
       "title": "[RA] 가천대학교 소프트웨어학과 학부생연구원",
       "term": "21.04 - 21.10",
@@ -315,10 +322,12 @@
       "experienceUrl": ""
     },
     {
+      "id": 5,
       "imgUrl": "./assets/images/exp_emro.jpg",
       "title": "[산학인턴] 엠로 AI 사업본부",
       "term": "21.01 - 21.02",
       "description": "파이썬의 Beautifulsoup, Selenium 라이브러리를 이용한 크롤링과 Docker와 MongoDB의 사용경험을 쌓았으며, NLP 기술이 현업에서 어떻게 쓰이는지 경험했습니다.",
+      "descriptions": [],
       "experienceUrl": "https://github.com/chlee1001/industry-academic-program"
     }
   ],
