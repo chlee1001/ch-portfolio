@@ -11,6 +11,7 @@ import Footer from '#components/Footer'
 import Education from '#components/Education'
 import Certificates from '#components/Certificates'
 import Experience from '#components/Experience'
+import Projects from '#components/projects'
 
 const Home = () => {
   const { darkTheme } = useContext(ThemeChangeContext)
@@ -29,6 +30,7 @@ const Home = () => {
         <AboutMe />
         <SkillSets />
         <Experience />
+        <Projects />
         <Certificates />
         <Education />
         <Footer />
