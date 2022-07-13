@@ -236,7 +236,7 @@ const SkillItems = styled.div`
 
 const SkillSets = () => {
   const { skillSets } = myData
-  const { t } = useTranslation()
+  const { t } = useTranslation(['skills'])
 
   if (skillSets.length === 0) {
     return null
