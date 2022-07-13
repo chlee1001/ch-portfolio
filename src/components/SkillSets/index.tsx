@@ -12,6 +12,20 @@ import {
 } from '#styles/theme/variables'
 import { commonDevices, mixins } from '#styles/theme/mixins'
 
+const mobileFontSize = {
+  type1: () => `
+    @media ${minDevices.mobileM} and ${maxDevices.mobileL} {
+      font-size: ${size.small1};
+    }
+    @media ${minDevices.mobileXS1} and ${maxDevices.mobileM} {
+        font-size: ${size.small2};
+    }
+    @media ${maxDevices.mobileXS} {
+        font-size: ${size.small3};
+    }
+  `,
+}
+
 const SkillSetsContainer = styled.div`
   padding: 0 1rem;
   margin-bottom: 5rem;
@@ -55,10 +69,16 @@ const SkillSetsDescription = styled.div`
         min-width: 3rem;
       `}
     }
-    @media ${maxDevices.mobileXS} {
+    @media ${minDevices.mobileXS1} and ${maxDevices.mobileS} {
       ${css`
         font-size: ${size.tiny0};
         min-width: 2.5rem;
+      `}
+    }
+    @media ${maxDevices.mobileXS} {
+      ${css`
+        font-size: ${size.tiny1};
+        min-width: 2rem;
       `}
     }
   }
@@ -93,9 +113,14 @@ const SkillSetsDescription = styled.div`
         font-size: ${size.small1};
       `}
     }
-    @media ${minDevices.mobileS} and ${maxDevices.mobileM} {
+    @media ${minDevices.mobileXS1} and ${maxDevices.mobileM} {
       ${css`
         font-size: ${size.small3};
+      `}
+    }
+    @media ${minDevices.mobileXS1} and ${maxDevices.mobileS} {
+      ${css`
+        font-size: ${size.tiny0};
       `}
     }
     @media ${maxDevices.mobileXS} {
@@ -115,7 +140,7 @@ const SkillSetsDescription = styled.div`
       padding: 0.75rem 1.25rem;
     `}
   }
-  @media ${maxDevices.mobileXS} {
+  @media ${maxDevices.mobileS} {
     ${css`
       padding: 0.75rem 1rem;
     `}
@@ -186,21 +211,7 @@ const SkillItems = styled.div`
           font-weight: 500;
         `}
       }
-      @media ${minDevices.mobileM} and ${maxDevices.mobileL} {
-        ${css`
-          font-size: ${size.small1};
-        `}
-      }
-      @media ${minDevices.mobileS} and ${maxDevices.mobileM} {
-        ${css`
-          font-size: ${size.small2};
-        `}
-      }
-      @media ${maxDevices.mobileXS} {
-        ${css`
-          font-size: ${size.small3};
-        `}
-      }
+      ${mobileFontSize.type1};
     }
 
     .expert {
@@ -217,21 +228,7 @@ const SkillItems = styled.div`
     `}
   }
 
-  @media ${minDevices.mobileM} and ${maxDevices.mobileL} {
-    ${css`
-      font-size: ${size.small1};
-    `}
-  }
-  @media ${minDevices.mobileS} and ${maxDevices.mobileM} {
-    ${css`
-      font-size: ${size.small2};
-    `}
-  }
-  @media ${maxDevices.mobileXS} {
-    ${css`
-      font-size: ${size.small3};
-    `}
-  }
+  ${mobileFontSize.type1};
 `
 
 const SkillSets = () => {
