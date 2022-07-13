@@ -137,7 +137,7 @@ const IntroduceWrapper = styled.div`
     boldblue {
       background-color: ${color.darkEventOpacity};
       padding: 0 0.225rem;
-      color: ${color.main}
+      color: ${color.main};
       font-weight: ${weight.semiBold};
     }
 
@@ -186,7 +186,6 @@ const IntroduceWrapper = styled.div`
         display: block;
       }
     }
-
 
     @media ${minDevices.mobileS} and ${maxDevices.mobileL} {
       ${css`
