@@ -142,6 +142,7 @@
   ],
   "projects": [
     {
+      "id": 1,
       "imgUrl": "./assets/images/ch_logo.png",
       "githubUrl": "https://chae-hyeon.notion.site/6078ec69e8634c518c816dc0ac196148",
       "projectUrl": "https://chae-hyeon.notion.site/6078ec69e8634c518c816dc0ac196148",
@@ -154,10 +155,12 @@
         "AWS EC2",
         "Ubuntu",
         "Nginx",
-        "React"
+        "React",
+        "Typescript"
       ]
     },
     {
+      "id": 2,
       "imgUrl": "",
       "githubUrl": "https://github.com/FIN-Hackaton/loan-listing-service",
       "projectUrl": "https://github.com/FIN-Hackaton/loan-listing-service",
@@ -177,6 +180,7 @@
       ]
     },
     {
+      "id": 3,
       "imgUrl": "../assets/images/project_stock.jpg",
       "githubUrl": "https://github.com/FIN-Study/Stock-ChatBot",
       "projectUrl": "https://github.com/FIN-Study/Stock-ChatBot",
@@ -194,6 +198,7 @@
       ]
     },
     {
+      "id": 4,
       "imgUrl": "../assets/images/project_denoise.png",
       "githubUrl": "https://github.com/chlee1001",
       "projectUrl": "https://github.com/chlee1001",
@@ -207,6 +212,7 @@
       ]
     },
     {
+      "id": 5,
       "imgUrl": "../assets/images/project_AIprofile.png",
       "githubUrl": "https://github.com/rheeeuro/profile-finder",
       "projectUrl": "https://profile-finder0.herokuapp.com/",
@@ -225,6 +231,7 @@
       ]
     },
     {
+      "id": 6,
       "imgUrl": "./assets/images/project-aquarium.png",
       "githubUrl": "https://github.com/chlee1001/Computer-Graphics_TermProject",
       "projectUrl": "https://www.youtube.com/watch?v=Goi1VeH1tBU",
@@ -240,6 +247,7 @@
       ]
     },
     {
+      "id": 7,
       "imgUrl": "./assets/images/project-hwajilguji.jpg",
       "githubUrl": "https://github.com/MP-TermProject/HwajilGuji/wiki",
       "projectUrl": "https://www.youtube.com/watch?v=HeCJ8irDXdg",
@@ -252,6 +260,7 @@
       ]
     },
     {
+      "id": 8,
       "imgUrl": "/assets/images/project-mebot.gif",
       "githubUrl": "https://github.com/chlee1001/MeBot/wiki",
       "projectUrl": "https://www.youtube.com/watch?v=FLkv7BF1rV4",
