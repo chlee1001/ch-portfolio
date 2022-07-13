@@ -33,7 +33,7 @@ const SkillSetsContainer = styled.div`
 
   @media ${maxDevices.mobileL} {
     ${css`
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     `}
   }
   @media ${maxDevices.mobileXS} {
