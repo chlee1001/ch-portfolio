@@ -7,6 +7,7 @@ import ThemeMode from '#components/ThemeMode'
 import Title from '#components/Title'
 import AboutMe from '#components/AboutMe'
 import SkillSets from '#components/SkillSets'
+import Footer from '#components/Footer'
 
 const Home = () => {
   const { darkTheme } = useContext(ThemeChangeContext)
@@ -24,6 +25,7 @@ const Home = () => {
         <Title />
         <AboutMe />
         <SkillSets />
+        <Footer />
       </PageWrapper>
     </CSSTransition>
   )
