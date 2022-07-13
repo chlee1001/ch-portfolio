@@ -88,17 +88,17 @@ const EducationItemDetails = styled.div`
 
     @media ${minDevices.mobileM} and ${maxDevices.mobileL} {
       ${css`
-        font-size: ${size.default};
+        font-size: ${size.small1};
       `}
     }
     @media ${minDevices.mobileXS1} and ${maxDevices.mobileM} {
       ${css`
-        font-size: ${size.small0};
+        font-size: ${size.small2};
       `}
     }
     @media ${maxDevices.mobileXS} {
       ${css`
-        font-size: ${size.small1};
+        font-size: ${size.small3};
       `}
     }
   }
