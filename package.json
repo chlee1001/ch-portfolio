@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
-    "start": "cross-env NODE_ENV=production webpack serve --config config/webpack.dev.js",
+    "start": "cross-env NODE_ENV=production webpack serve --config config/webpack.prod.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
     "prettier": "prettier --write --config ./.prettierrc './src/**/*.{ts,tsx}'",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
