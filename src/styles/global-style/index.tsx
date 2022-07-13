@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 import { color, weight } from '#styles/theme/variables'
 import Sun from '#assets/static/images/sun.png'
+import CheckDark from '#assets/static/images/check-dark.png'
+import GithubDark from '#assets/static/images/github-dark.png'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -41,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .project .project__links .github-logo {
-      background-image: url('#assets/static/images/github-dark.png');
+      background-image: url(${GithubDark});
     }
 
     .timestamp .timestamp__main .when {
@@ -118,7 +120,7 @@ const GlobalStyle = createGlobalStyle`
 
       ul > customli {
         &::before {
-          background-image: url('#assets/static/images/check-dark.png');
+          background-image: url(${CheckDark});
         }
       }
     }
