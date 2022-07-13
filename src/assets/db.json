@@ -14,95 +14,128 @@
   },
   "skillSets": [
     {
-      "category": "Front-End",
+      "id": 1,
+      "category": "Front End Skills",
       "skills": [
         {
+          "id": 1,
           "skill": "React Native",
-          "level": "4"
+          "level": "3.75"
         },
         {
+          "id": 2,
           "skill": "React",
           "level": "3.5"
         },
         {
+          "id": 3,
           "skill": "CSS - Styled Components",
+          "level": "3"
+        },
+        {
+          "id": 4,
+          "skill": "Javascript",
           "level": "4"
         },
         {
-          "skill": "HTML/CSS/JS",
-          "level": "3"
+          "id": 5,
+          "skill": "Typescript",
+          "level": "2"
         }
       ]
     },
     {
-      "category": "Back-End",
+      "id": 2,
+      "category": "Back End Skills",
       "skills": [
         {
+          "id": 1,
+          "skill": "JAVA",
+          "level": "3"
+        },
+        {
+          "id": 2,
           "skill": "SpringBoot",
           "level": "3"
         },
         {
-          "skill": "Node.js",
-          "level": "3"
+          "id": 3,
+          "skill": "Express",
+          "level": "2"
         }
+
       ]
     },
     {
-      "category": "Database",
+      "id": 3,
+      "category": "Database Skills",
       "skills": [
         {
+          "id": 1,
           "skill": "MySQL",
           "level": "3"
         }
       ]
     },
     {
-      "category": "Language Skills",
+      "id": 4,
+      "category": "Collaboration Skills",
       "skills": [
         {
-          "skill": "Javascript",
-          "level": "4"
+          "id": 1,
+          "skill": "Git/Github",
+          "level": null
         },
         {
-          "skill": "Python",
-          "level": "3.5"
+          "id": 2,
+          "skill": "Notion",
+          "level": null
         },
         {
-          "skill": "JAVA",
-          "level": "3"
+          "id": 3,
+          "skill": "Slack",
+          "level": null
         }
       ]
     },
     {
+      "id": 5,
       "category": "ETC...",
       "skills": [
         {
-          "skill": "Git/Github",
-          "level": "4"
+          "id": 1,
+          "skill": "Python",
+          "level": null
         },
         {
+          "id": 2,
           "skill": "AWS EC2",
-          "level": "3.5"
+          "level": null
         },
         {
+          "id": 3,
           "skill": "AWS RDS",
-          "level": "3.5"
+          "level": null
         },
         {
+          "id": 4,
           "skill": "AWS S3",
-          "level": "3"
+          "level": null
         },
         {
+          "id": 5,
           "skill": "AWS Lambda",
-          "level": "3"
+          "level": null
         },
         {
-          "skill": "Linux(커맨드 및 개발환경)",
-          "level": "3.5"
+          "id": 6,
+          "skill": "Linux",
+          "level": null
         },
         {
+          "id": 7,
           "skill": "Docker",
-          "level": "2"
+          "level": null
         }
       ]
     }
