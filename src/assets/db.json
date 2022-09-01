@@ -9,7 +9,7 @@
     "profileImg": "../assets/images/me.gif",
     "email": "chlee1001@naver.com",
     "githubUrl": "https://github.com/chlee1001",
-    "blogUrl": "https://chlee1001.github.io/",
+    "blogUrl": "https://devch.co.kr/",
     "linkedInUrl": "https://www.linkedin.com/in/chlee1001/"
   },
   "skillSets": [
@@ -20,7 +20,7 @@
         {
           "id": 1,
           "skill": "React Native",
-          "level": "3.75"
+          "level": "3.5"
         },
         {
           "id": 2,
@@ -35,7 +35,7 @@
         {
           "id": 4,
           "skill": "Javascript",
-          "level": "4"
+          "level": "3.5"
         },
         {
           "id": 5,
