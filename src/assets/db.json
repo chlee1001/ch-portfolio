@@ -131,6 +131,25 @@
   ],
   "projects": [
     {
+      "id": 10,
+      "imgUrl": "./assets/images/exp_lfin2.png",
+      "githubUrl": "https://chae-hyeon.notion.site/25ea85c43737496899568f90886f69be",
+      "projectUrl": "https://apps.apple.com/kr/app/%EB%85%B8%EB%8B%A5%EB%85%B8%EB%8B%A5/id1614600521",
+      "title": "[LFin] 노닥노닥",
+      "term": "22.02 ~ 22.04",
+      "description": "빌딩 인증 기반 하이퍼로컬 직장인 커뮤니티",
+      "attribution": "초기 기획부터 개발 완료 후 현재 운영 및 유지보수 중",
+      "tags": [
+        "React-Native",
+        "React.js",
+        "Redux",
+        "Redux-Saga",
+        "React-Query",
+        "Styled-Components",
+        "Javascript"
+      ]
+    },
+    {
       "id": 1,
       "imgUrl": "./assets/images/ch_logo.png",
       "githubUrl": "https://chae-hyeon.notion.site/6078ec69e8634c518c816dc0ac196148",
