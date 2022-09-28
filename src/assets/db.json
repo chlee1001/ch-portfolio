@@ -9,8 +9,8 @@
     "profileImg": "../assets/images/me.gif",
     "email": "chlee1001@naver.com",
     "githubUrl": "https://github.com/chlee1001",
-    "blogUrl": "https://chlee1001.github.io/",
-    "linkedInUrl": "https://www.linkedin.com/in/chlee1001/"
+    "blogUrl": "https://devch.co.kr/",
+    "linkedInUrl": "https://www.linkedin.com/in/%EC%B1%84%ED%98%84-%EC%9D%B4-12611720b/"
   },
   "skillSets": [
     {
@@ -20,7 +20,7 @@
         {
           "id": 1,
           "skill": "React Native",
-          "level": "3.75"
+          "level": "3.5"
         },
         {
           "id": 2,
@@ -35,7 +35,7 @@
         {
           "id": 4,
           "skill": "Javascript",
-          "level": "4"
+          "level": "3.5"
         },
         {
           "id": 5,
@@ -50,20 +50,9 @@
       "skills": [
         {
           "id": 1,
-          "skill": "JAVA",
-          "level": "3"
-        },
-        {
-          "id": 2,
           "skill": "SpringBoot",
-          "level": "3"
-        },
-        {
-          "id": 3,
-          "skill": "Express",
           "level": "2"
         }
-
       ]
     },
     {
@@ -348,7 +337,7 @@
       "description": "22201240442N - 한국산업인력공단"
     },
     {
-     "id": 2,
+      "id": 2,
       "title": "토익스피킹 - 6급",
       "term": "2021.03.28",
       "description": "한국TOEIC위원회"
