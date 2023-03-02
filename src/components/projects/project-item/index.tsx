@@ -290,7 +290,15 @@ const ProjectItem = ({ project }: IProjectItemProps) => {
             {title} <span className="term">({term})</span>
           </div>
           <div className="description">{description}</div>
-          <div className="attribution">{attribution}</div>
+          <div className="attribution">
+            {attribution.split('\n').map((line, index) => (
+              // eslint-disable-next-line react/no-array-index-key
+              <React.Fragment key={index}>
+                {line}
+                <br />
+              </React.Fragment>
+            ))}
+          </div>
           <ProjectItemTags>
             {tags.map((tag) => (
               <div key={tag} className="tag">
