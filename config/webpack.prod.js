@@ -12,7 +12,7 @@ module.exports = merge(common, {
     maxEntrypointSize: 512000,
     maxAssetSize: 512000
   },
-  devtool: 'source-map',
+  devtool: 'nosources-source-map',
   module: {
     rules: [
       {
