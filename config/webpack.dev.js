@@ -10,7 +10,7 @@ const cssModuleRegex = /\.module\.css$/
 
 module.exports = merge(common, {
   mode: 'development',
-  devtool: 'inline-source-map',
+  devtool: 'eval',
   module: {
     rules: [
       // style-loader, css-loader 구성

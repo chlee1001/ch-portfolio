@@ -25,7 +25,7 @@ i18n.use(initReactI18next).init({
     English: ['English'],
     default: ['Korean'],
   },
-  debug: true,
+  debug: process.env.NODE_ENV === 'development',
   defaultNS: 'translation',
   ns: 'translation',
   keySeparator: false,

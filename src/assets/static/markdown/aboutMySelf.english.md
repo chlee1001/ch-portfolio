@@ -1,34 +1,34 @@
 <br />
 
-# Hi!
+# Hello!
 
-## 배우는 것이 즐거운 주니어 개발자 **이채현** 입니다.
+## I am Chaehyeon Lee, a frontend junior developer who enjoys learning.
 
 <br />
 
-## 저는,
+## I am..,
 
-### - +R+풀 스택 개발자+R+를 목표하고 있습니다.
+### - I always enjoy implementing services that meet users' needs, by considering their perspectives.
 
-### - 사용자의 니즈를 항상 +G+생각+G+하며, 필요로 하는 서비스를 +G+구현+G+하는 것을 좋아하며 즐깁니다.
+### - I aspire to create valuable code through continuous challenges and efforts.
 
-### - 끊임없는 +B+도전+B+과 +B+노력+B+으로 +B+가치를 위한 코드+B+를 만들고 싶습니다.
+### - My goal is to become a full-stack developer.
 
 
 <br /><br />
 
 ## My Soft Skills are..
 
-- 다양한 팀프로젝트 경험을 통해 협업의 가치를 알고 있습니다.
-- 항상 열린 마음을 가지고 대화하려고 노력합니다. 그래서 어떤 문제상황이 발생하여도 함께 문제를 정의하고 해결해 나갈 수 있습니다.
-- 어떤 요구상황에도, 주어진 Task를 완성하기 위해 끊임없이 노력하고, 부족한 것은 배워가고 있습니다.
-
+- Through various team project experiences, I have learned the value of collaboration.
+- I always try to communicate with an open mind, so that we can define and solve problems together. 
+- Regardless of the demands, I strive to complete tasks and learn what I lack.
+- 
 <br />
 
 ## Also..
 
-& 다양한 경험을 즐기며, 피드백을 좋아합니다.
+& I enjoy diverse experiences and feedback.
 
-& 반복되는 일을 자동화하고 비효율적인 프로세스를 개선하기 위해 노력하고 있습니다.
+& I am striving to automate repetitive tasks and improve inefficient processes.
 
-& 새로운 지식과 자주쓰이는 것들을 문서화하기 위해 노력합니다.
+& I make an effort to document new knowledge and frequently used information.

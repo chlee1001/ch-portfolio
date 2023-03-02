@@ -29,29 +29,18 @@
         },
         {
           "id": 3,
-          "skill": "CSS - Styled Components",
-          "level": "3"
-        },
-        {
-          "id": 4,
           "skill": "Javascript",
           "level": "3.5"
         },
         {
-          "id": 5,
+          "id": 4,
           "skill": "Typescript",
-          "level": "2"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "category": "Back End Skills",
-      "skills": [
+          "level": "3"
+        },
         {
-          "id": 1,
-          "skill": "SpringBoot",
-          "level": "2"
+          "id": 5,
+          "skill": "CSS - Styled Components",
+          "level": "3"
         }
       ]
     },
@@ -92,28 +81,8 @@
       "category": "ETC...",
       "skills": [
         {
-          "id": 1,
-          "skill": "Python",
-          "level": null
-        },
-        {
           "id": 2,
-          "skill": "AWS EC2",
-          "level": null
-        },
-        {
-          "id": 3,
-          "skill": "AWS RDS",
-          "level": null
-        },
-        {
-          "id": 4,
-          "skill": "AWS S3",
-          "level": null
-        },
-        {
-          "id": 5,
-          "skill": "AWS Lambda",
+          "skill": "AWS EC2 / RDS / S3 / Lambda",
           "level": null
         },
         {
@@ -131,21 +100,73 @@
   ],
   "projects": [
     {
-      "id": 10,
+      "id": 13,
       "imgUrl": "./assets/images/exp_lfin2.png",
+      "githubUrl": "https://chae-hyeon.notion.site/25ea85c43737496899568f90886f69be",
+      "projectUrl": "",
+      "title": "[LFin] 기아 제로원 PoC 프로젝트 참여",
+      "term": "22.12 ~ 23.02 (2개월)",
+      "description": "LFin의 복합위치인증 기술을 활용한 PoC 프로젝트 참여",
+      "attribution": "앱 개발 - 안드로이드 GeoFence, Background-Fetch 기능 추가",
+      "tags": [
+        "React-Native",
+        "Redux",
+        "React-Query",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": 12,
+      "imgUrl": "./assets/images/exp_lfin_ihw.png",
+      "githubUrl": "https://chae-hyeon.notion.site/25ea85c43737496899568f90886f69be",
+      "projectUrl": "https://apps.apple.com/kr/app/%EC%95%84%EC%9E%84%ED%9E%88%EC%96%B4%EC%9B%8C%ED%81%AC/id1488786714",
+      "title": "[LFin] 모바일 출결 관리 '아임히어'",
+      "term": "22.10 ~ ",
+      "description": "무선인프라를 활용한 출결관리 서비스",
+      "attribution": "앱 : 디자인 리뉴얼,\nㅤ - 기능 추가 및 버그 수정 진행 중\n관리자페이지 : 프로젝트 최신화 및 TS로 리팩토링, 기능 추가 및 버그 수정 진행 중",
+      "tags": [
+        "React-Native",
+        "Redux",
+        "Redux-Saga",
+        "React.js",
+        "Recoil",
+        "React-Query",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": 11,
+      "imgUrl": "./assets/images/exp_lfin_imhw.png",
+      "githubUrl": "https://chae-hyeon.notion.site/25ea85c43737496899568f90886f69be",
+      "projectUrl": "https://apps.apple.com/kr/app/%EC%95%84%EC%9E%84%ED%9E%88%EC%96%B4%EC%9B%8C%ED%81%AC/id1488786714",
+      "title": "[LFin] 모바일 근태 관리 '아임히어워크'",
+      "term": "22.10 ~ ",
+      "description": "위치기반 근태관리 서비스",
+      "attribution": "앱 : 디자인 리뉴얼과, 프로젝트 구조 재확립,\nㅤ - 위치인증 코드 최적화,\nㅤ - 기능 추가 및 버그 수정 진행 중\n관리자페이지 : 프로젝트 최신화 및 코드 리팩토링, 기능 추가 및 버그 수정 진행 중",
+      "tags": [
+        "React-Native",
+        "Redux",
+        "Redux-Saga",
+        "React.js",
+        "MobX",
+        "React-Query",
+        "Javascript"
+      ]
+    },
+    {
+      "id": 10,
+      "imgUrl": "./assets/images/exp_lfin_nodak.png",
       "githubUrl": "https://chae-hyeon.notion.site/25ea85c43737496899568f90886f69be",
       "projectUrl": "https://apps.apple.com/kr/app/%EB%85%B8%EB%8B%A5%EB%85%B8%EB%8B%A5/id1614600521",
       "title": "[LFin] 노닥노닥",
-      "term": "22.02 ~ 22.04",
+      "term": "22.02 ~ ",
       "description": "빌딩 인증 기반 하이퍼로컬 직장인 커뮤니티",
       "attribution": "초기 기획부터 개발 완료 후 현재 운영 및 유지보수 중",
       "tags": [
         "React-Native",
-        "React.js",
         "Redux",
         "Redux-Saga",
         "React-Query",
-        "Styled-Components",
         "Javascript"
       ]
     },
@@ -157,7 +178,7 @@
       "title": "[개인] 포트폴리오 프로젝트",
       "term": "22.01 ~ ",
       "description": "포트폴리오 사이트 프로젝트입니다.",
-      "attribution": "일부 버그 및 기능 추가와 함께 TS로 리팩토링 진행중입니다.",
+      "attribution": "개인 포트폴리오 사이트이며, 상세 내용은 노션에 업데이트 진행중입니다.\n추후 next.js로 마이그레이션 예정입니다.",
       "tags": [
         "Cloudflare",
         "AWS EC2",
@@ -296,8 +317,10 @@
       "info": "지금 당장 내가 서 있는 '위치'정보가 '나'를 인증하는 인증솔루션을 제공하는 스타트업",
       "description": "",
       "descriptions": [
-        "- MVP 서비스의 CMS페이지 개발",
-        "- 신규 B2C 서비스 '노닥노닥' 개발 진행 및 런칭",
+        "- 기아 제로원 PoC 프로젝트 개발",
+        "- 모바일 근태 관리 앱 '아임히어워크' 서비스 유지보수 및 개발",
+        "- 모바일 출결 관리 앱 '아임히어' 서비스 유지보수 및 개발",
+        "- 빌딩 기반 익명 커뮤니티 '노닥노닥' 개발",
         "...더보기"
       ],
       "experienceUrl": "https://chae-hyeon.notion.site/25ea85c43737496899568f90886f69be"
